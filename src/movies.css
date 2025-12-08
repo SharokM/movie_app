@@ -1,0 +1,36 @@
+.movie-container {
+  display: flex;
+  /* flex-direction: column; */
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+}
+
+.movie-container > h2 {
+  font-size: 2rem;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.movie-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  align-content: center;
+}
+
+.movie {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+  width: 200px;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(199, 191, 191, 0.809);
+}

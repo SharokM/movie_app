@@ -1,15 +1,18 @@
-import { useState } from 'react'
+
 import './App.css'
+import MovieComponent from './MovieComponent.jsx'
 
 function App() {
 
 
   return (
     <>
-    <h1>Movie App</h1>
-    <p>lets make a movie site</p>      
+    <div className='App'>
+      <MovieComponent />      
+    </div>
+   
     </>
   )
 }
 
-export default App
+export default App;
