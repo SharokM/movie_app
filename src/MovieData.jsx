@@ -7,7 +7,7 @@ export const movies = [
         director: "Christopher Nolan", 
         year: 2010,
         rating: 8.8,
-        image: "http://www.impawards.com/2010/posters/inception.jpg"
+        image: "http://www.impawards.com/2010/posters/inception_ver15.jpg"
      },   
     { 
         id: 2, 
@@ -15,7 +15,7 @@ export const movies = [
         director: "The Wachowskis", 
         year: 1999,
         rating: 8.7,
-        image: "http://www.impawards.com/1999/posters/matrix.jpg"
+        image: "https://image.tmdb.org/t/p/w500/f89U3ADr1oiB1s9GkdPOEpXUk5H.jpg"
      },
     { 
         id: 3, 
@@ -23,7 +23,7 @@ export const movies = [
         director: "Christopher Nolan", 
         year: 2014,
         rating: 8.6,
-        image: "http://www.impawards.com/2014/posters/interstellar.jpg"
+        image: "https://www.impawards.com/2014/interstellar_xxlg.jpg"
      },
     { 
         id: 4, 
@@ -31,7 +31,7 @@ export const movies = [
         director: "Francis Ford Coppola", 
         year: 1972,
         rating: 9.2,
-        image: "http://www.impawards.com/1972/posters/godfather.jpg"
+        image: "https://image.tmdb.org/t/p/w500/rPdtLWNsZmAtoZl9PK7S2wE3qiS.jpg"
      },
     { 
         id: 5, 
@@ -39,7 +39,7 @@ export const movies = [
         director: "Quentin Tarantino", 
         year: 1994,
         rating: 8.9,
-        image: "http://www.impawards.com/1994/posters/pulp_fiction.jpg"
+        image: "https://image.tmdb.org/t/p/w500/d5iIlFn5s0ImszYzBPb8JPIfbXD.jpg"
      },
      {
         id: 6, 
@@ -47,7 +47,7 @@ export const movies = [
         director: "Christopher Nolan", 
         year: 2008,
         rating: 9.0,
-        image: "http://www.impawards.com/2008/posters/dark_knight.jpg"
+        image: "https://image.tmdb.org/t/p/w500/qJ2tW6WMUDux911r6m7haRef0WH.jpg"
      },
      {
         id: 7, 
@@ -55,7 +55,7 @@ export const movies = [
         director: "Robert Zemeckis", 
         year: 1994,
         rating: 8.8,
-        image: "http://www.impawards.com/1994/posters/forrest_gump.jpg"
+        image: "https://www.impawards.com/2010/inception_ver13_xlg.jpg"
      },
      {
         id: 8, 
@@ -63,7 +63,7 @@ export const movies = [
         director: "Frank Dara", 
         year: 1994,
         rating: 9.3,
-        image: "http://www.impawards.com/1994/posters/shawshank_redemption.jpg"
+        image: "https://image.tmdb.org/t/p/w500/q6y0Go1tsGEsmtFryDOJo3dEmqu.jpg"
      },
      {
         id: 9, 
@@ -71,7 +71,7 @@ export const movies = [
         director: "David Fincher", 
         year: 1999,
         rating: 8.8,
-        image: "http://www.impawards.com/1999/posters/fight_club.jpg"
+        image: "https://image.tmdb.org/t/p/w500/bptfVGEQuv6vDTIMVCHjJ9Dz8PX.jpg"
      }
 ];
 
