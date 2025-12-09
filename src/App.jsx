@@ -1,18 +1,29 @@
-
+import React, { Component } from 'react';
 import './App.css'
 import MovieComponent from './MovieComponent.jsx'
+import Header from './Header.jsx';
 
-function App() {
 
 
-  return (
-    <>
-    <div className='App'>
-      <MovieComponent />      
-    </div>
-   
-    </>
+class App extends Component {
+
+  state = {
+    searchText: ""
+  }
+
+  render() {
+    return (
+      <>
+      <div className='App'>
+        <Header />
+        <MovieComponent />      
+      </div>
+    
+      </>
   )
+}  
 }
 
 export default App;
+
+

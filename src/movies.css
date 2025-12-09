@@ -4,11 +4,11 @@
   /* flex-wrap: wrap; */
   /* gap: 20px; */
   justify-content: center;
-  padding: 20px;
+  padding: 0;
 }
 
 .movie-container > h2 {
-  font-size: 2rem;
+  font-size: 3.5rem;
   width: 100%;
   text-align: center;
   margin-bottom: 20px;
@@ -33,4 +33,18 @@
   margin: 10px;
   text-align: center;
   box-shadow: 0 2px 5px rgba(199, 191, 191, 0.809);
+}
+
+.app-header-controls {
+  display: flex;
+  justify-content: left;
+  margin: 20px 0 0 50px;
+}
+
+.search {
+  font-size: 14px;
+  padding: 5px;
+  margin: 8px;
+  flex-grow: 1;
+  max-width: 300px;
 }
