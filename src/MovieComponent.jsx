@@ -1,15 +1,22 @@
 
-import { movies } from './MovieData.jsx'
+// import { movies } from './MovieData.jsx'
 import Movie from './Movie.jsx'
 import './movies.css'
+import React from 'react';
 
-const fetchMovies = () => {
-    return movies;
-}
 
 // FIND A GOOD MOVIE API AND REPLACE THE STATIC DATA WITH API CALLS
-const MovieComponent = () => {
-    const movieData = fetchMovies();
+// const fetchMovies = () => {
+//     return movies;
+// }
+
+
+
+const MovieComponent = (props) => {
+
+
+    // const movieData = fetchMovies();
+    const movieData = props.movies;
 
 
     return (
@@ -17,7 +24,11 @@ const MovieComponent = () => {
             <h2>Popular Movies</h2>
             <ul className="movie-list">
                 {
-                movieData.map((movie) => (
+                movieData
+                // filter through movies to only show movies that match search
+                .filter((movie) => movie.doesMatchSearch)
+                // map over movies and render Movie component
+                .map((movie) => (
                     <Movie key={movie.id} movie={movie} />
                 ))
 

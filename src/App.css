@@ -5,19 +5,6 @@
   text-align: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
 @keyframes logo-spin {
   from {
     transform: rotate(0deg);
@@ -27,16 +14,150 @@
   }
 }
 
-@media (prefers-reduced-motion: no-preference) {
+@media (min-width: 768px) {
+  body {
+    background-color: rgb(53, 33, 6);
+  }
+
+  header {
+    font-family: "Courier New", Courier, monospace;
+  }
+
+  .app-header-controls {
+    font-weight: 500;
+  }
+
+  input {
+    font-size: 1rem;
+    padding: 0.5rem;
+  }
+
+  .search {
+    margin-top: 1rem;
+  }
+
+  aside {
+    text-align: left;
+  }
+
+  .movie-container {
+    /* display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); */
+    gap: 1rem;
+  }
+
+  .movie-list {
+    /* display: flex;
+    flex-wrap: wrap;
+    justify-content: center; */
+    gap: 1rem;
+  }
+
+  .movie {
+    margin: 0;
+  }
+
+  .movie > p {
+    font-size: 1.1rem;
+    font-family: "Courier New", Courier, monospace;
+  }
+
+  .logo {
+    height: 6em;
+    padding: 1.5em;
+    will-change: filter;
+    transition: filter 300ms;
+  }
+  .logo:hover {
+    filter: drop-shadow(0 0 2em #646cffaa);
+  }
+  .logo.react:hover {
+    filter: drop-shadow(0 0 2em #61dafbaa);
+  }
+
   a:nth-of-type(2) .logo {
     animation: logo-spin infinite 20s linear;
   }
+
+  .card {
+    padding: 2em;
+  }
+
+  .read-the-docs {
+    color: #888;
+  }
 }
 
-.card {
-  padding: 2em;
-}
+@media (min-width: 1200px) {
+  body {
+    background-color: rgb(53, 33, 6);
+  }
 
-.read-the-docs {
-  color: #888;
+  header {
+    font-family: "Courier New", Courier, monospace;
+  }
+
+  .app-header-controls {
+    font-weight: 500;
+  }
+
+  input {
+    font-size: 1rem;
+    padding: 0.5rem;
+  }
+
+  .search {
+    margin-top: 1rem;
+  }
+
+  aside {
+    text-align: left;
+  }
+
+  .movie-container {
+    /* display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); */
+    gap: 1rem;
+  }
+
+  .movie-list {
+    /* display: flex;
+    flex-wrap: wrap;
+    justify-content: center; */
+    gap: 1rem;
+  }
+
+  .movie {
+    margin: 0;
+  }
+
+  .movie > p {
+    font-size: 1.1rem;
+    font-family: "Courier New", Courier, monospace;
+  }
+
+  .logo {
+    height: 6em;
+    padding: 1.5em;
+    will-change: filter;
+    transition: filter 300ms;
+  }
+  .logo:hover {
+    filter: drop-shadow(0 0 2em #646cffaa);
+  }
+  .logo.react:hover {
+    filter: drop-shadow(0 0 2em #61dafbaa);
+  }
+
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+
+  .card {
+    padding: 2em;
+  }
+
+  .read-the-docs {
+    color: #888;
+  }
 }
